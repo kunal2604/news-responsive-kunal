@@ -1,0 +1,159 @@
+body{
+    overflow-x: hidden;
+}
+
+table{
+    width: 100%;
+    height: 25em;
+    padding: 20px 10px 5px 10px;
+    text-align: center;
+    
+}
+
+.titleMain{
+    margin-left: 6%;
+    font: lighter 40px 'Roboto', arial, sans-serif;
+    flex:1;
+    
+}
+
+.imageLogo{
+    height: 120px;
+    width: 120px;
+    margin:auto;
+}
+.title{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5px;
+}
+.titleMain{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+.title-line{
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 6px;
+    box-shadow: inset 12px 12px 12px 12px grey;
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5% 1% 5%;
+ }
+
+.womanBear{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+  
+.womanImageJPG{
+    height: auto;
+    width:100%;
+    padding: auto;
+}
+
+.NewsTitle{
+    align-content: flex-end;
+}
+
+.c img{
+    width:100px;
+    height:70px;
+}
+
+.head-title{
+    
+}
+
+td {
+    border:2px dotted black;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.days{
+    display:flex;
+    justify-content: space-around;
+    /*
+    height: 180px;
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;*/
+}
+
+.days-child{
+    height: 100%;
+    flex-basis: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.weatherAvg{
+    display: flex;
+    background-color: green;
+
+}
+
+.WeatherPic{
+    height: 100%;
+      
+}
+
+.b{
+    text-align: center;
+}
+.i{
+    height:100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 23%;
+    background-color: orange;
+  }
+.latest-news{
+    display:flex;
+    flex-direction: column;
+}
+.latest-news-title{
+    color: green;
+    margin-bottom: 10px;
+}
+
+.latest-news-pic{
+    float:left;
+}
+
+.c {
+    margin-top: 2%;
+}
+/*
+.dc1{
+    background-color: green;
+}
+
+.dc2{
+    background-color: blue;
+}
+
+
+.dc3{
+    background-color: green;
+}
+
+
+.dc4{
+    background-color: blue;
+}
+
+
+.dc5{
+    background-color: green;
+}*/
